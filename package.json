@@ -26,6 +26,7 @@
     "vinyl-ftp": "^0.6.0"
   },
   "dependencies": {
-    "bourbon": "^7.0.0"
+    "bourbon": "^7.0.0",
+    "waypoints": "^4.0.1"
   }
 }

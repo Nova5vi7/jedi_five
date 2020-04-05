@@ -4,3 +4,16 @@ $(function() {
     $(".main-mnu").slideToggle();
   });
 });
+
+$(".section_one .section-content .info-item").equalHeights();
+$(".s1-bottom .info-item").equalHeights();
+$(".section_three .section-content .info-item").equalHeights();
+$(".s2-item").equalHeights();
+$(".s2-item .img-wrap").equalHeights();
+$(".cards .card").equalHeights();
+$(".teams .team").equalHeights();
+
+$(".main-footer .toggle-mnu").clikck(function() {
+  $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+  return false;
+});
